@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/ford" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+            <img src="../img/logo-ford-256.png" alt="Logo Ford"></a>
+        </div>
+        <div class="listaLinks">
+            <ul class="links">
+                <a href="index.html">Home</a>
+                <a href="Lancamento.html">Lançamento</a>
+                <a href="Contato.html">Contato</a>
+            </ul>
+        </div>
+    </header>
+
+        <main id="mainContato">
+            <div class="carroFormulario">
+                <img src="../img/xls 2.2 diesel.jpg" alt="Carro xls">
+            </div>
+            <!-- Dfinições para o formulário-->
+            <div class="formulario">
+                <!-- Seção: Sobre Você -->
+                <h3>Sobre Você</h3>
+    
+                <!-- Nome -->
+                <label for="nome"> </label>
+                <input type="text" id="nome" name="nome" placeholder=" Insira seu Nome " required
+                    title="Digite seu Nome">
+                <br>
+    
+                <!-- E-mail -->
+                <label for="email"> </label>
+                <input type="email" id="email" name="email" placeholder=" Insira seu E-mail " required
+                    title="DIgite seu E-mail">
+                <br>
+    
+                <!-- CPF -->
+                <label for="cpf"> </label>
+                <input type="text" id="cpf" name="cpf" placeholder=" Insira seu CPF "
+                    title="Digite um CPF no formato 000.000.000-00" required>
+                <br>
+    
+                <!-- Sobrenome -->
+                <label for="sobrenome"> </label>
+                <input type="text" id="sobrenome" name="sobrenome" placeholder=" Insira seu Sobrenome " required
+                    title="DIgite seu E-mail">
+                <br>
+    
+                <!-- Seção: Reclamação -->
+                <label for="reclamacao"> </label>
+                <select id="reclamacao" name="reclamacao" required>
+                    <option value="" disabled selected> Selecione Tipo de Reclamação...</option>
+                    <option value="elogio">Elogio</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="solicitacao">Solicitação</option>
+                </select>
+                <br>
+    
+                <!-- Telefone -->
+                <label for="telefone"> </label>
+                <input type="tel" id="telefone" name="telefone" pattern="\(\d{2}\) \d{4,5}-\d{4}"
+                    placeholder=" Insira seu Telefone " title="Digite um telefone no formato (00) 0000-0000" required>
+                <br>
+    
+                <!-- Seção: Contato -->
+                <label for="contato"></label>
+                <select id="contato" name="contato" required>
+                    <option value="" disabled selected> Selecione Método de Contato...</option>
+                    <option value="telefone">Telefone</option>
+                    <option value="whatsapp">WhatsApp</option>
+                    <option value="email">E-mail</option>
+                </select>
+                
+                <button class="botaoContato">Enviar</button>
+    
+            </div>
+
+    </main>
+
+    <footer>
+        <div class="RedesSociais">
+            <p>Redes Sociais</p>
+            <a href="https://www.facebook.com/FordBrasil/?locale=pt_BR">
+                <img src="../img/facebook-50.png" alt="Logo Facebook"></a>
+            <a href="https://www.youtube.com/@fordbrasil">
+                <img src="../img/youtube-squared-50.png" alt="Logo Youtube"></a>
+            <a href="https://www.instagram.com/fordbrasil/">
+                <img src="../img/instagram-logo-50.png" alt="Logo Instagram"></a>
+        </div>
+            <div class="logoinferior">
+            <img src="../img/ford-96.png" alt="Logo Ford2"> &copy;
+        </div>
+
+    </footer>
+</body>
+</html>
