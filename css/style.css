@@ -70,6 +70,7 @@ header {
 
 .meioMain {
     justify-items: center;
+    margin-bottom: 7%;
 }
 
 .listaDeCarros {
@@ -101,6 +102,7 @@ header {
   
   .descricao label {
     line-height: 1.2;
+    color: #1351b8;
   }
   
   .info-icon {
