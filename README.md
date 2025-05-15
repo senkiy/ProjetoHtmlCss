@@ -18,7 +18,7 @@ O site apresenta:
 
 Este projeto foi desenvolvido com fins **educacionais** e **não possui fins comerciais**.
 
-# 🛠️ Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 - HTML5
 - CSS3
